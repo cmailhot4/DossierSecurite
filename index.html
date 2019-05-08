@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0100)https://cegepvicto.omnivox.ca/intr/Module/Identification/OubliMotPasse.aspx?TypeUtilisateur=Etudiant -->
+<html><head id="ctl00_head" lang="fr"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>
+	Omnivox - Oubli du mot de passe
+</title>
+
+	<script type="text/javascript">
+		var _valSes_Actif = 'N';
+	</script>
+
+	<script src="./Spam_Omnivox_files/Lib_General.js.téléchargement" type="text/javascript"></script>
+
+	<link type="text/css" href="./Spam_Omnivox_files/IntraflexCss.aspx" rel="stylesheet"><link type="text/css" href="./Spam_Omnivox_files/CssGlobal.min.css" rel="stylesheet"><meta name="title" content="Omnivox - Cégep de Victoriaville"><meta name="description" content="Omnivox vous simplifie la vie en intégrant des outils efficaces de communication."><meta name="keywords" content="Omnivox, Cégep de Victoriaville, Léa, l&#39;environnement Profs-Étudiants, Mio"><script src="./Spam_Omnivox_files/jquery-current.js.téléchargement" type="text/javascript"></script>
+				<script type="text/javascript">
+				document.addEventListener('DOMContentLoaded', function () {
+					var fctWait = typeof WaitForFrame !== 'undefined' ? WaitForFrame : function(c) {c();};
+					fctWait(function() {
+						var script;	});
+				});
+				</script> <!-- Pour évité que JQuery brise à trop d'endroits on va laisser les master pages autre que intraflex_menu avec les scripts en haut -->
+
+    <link rel="stylesheet" type="text/css" href="./Spam_Omnivox_files/header-v3-min.css"><link rel="stylesheet" type="text/css" href="./Spam_Omnivox_files/header-v3-intraflex.css"> <!--Correctifs de style pour intraflex seulement-->
+	<style type="text/css">
+		.imgEnvString {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 500;
+		}
+
+        
+        
+        body header #headerFixedBar nav a.headerNavbarLink,
+        body header #headerFixedBar nav #headerNavbarProfileUserName,
+        body header #headerFixedBar nav #headerNavbarProfile #parent-photo {
+            display: none;
+        }
+	</style>
+</head>
+<body id="ctl00_body">
+	
+
+
+	<form name="aspnetForm" method="post" action="https://cegepvicto.omnivox.ca/intr/Module/Identification/OubliMotPasse.aspx?TypeUtilisateur=Etudiant" id="aspnetForm" class="intrFrmNonAuthentifie">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="MAsmvNcF4+fQ5M5gaY7b8aN8NzkrsxlUCQNP5CSCNqmdfrAtjHy335ivCXE7MnsyeesHiX3zPmBegjnDrF676OAp6uDKHGt4JoLkKK2wZF7FWZzEi3oxBf1rKsTJJZkhJussiFywGvLxivkgDPQPawnDuBooaAmtPJfqfGlVI5c3mM2+7Ax84/feOP4GYvvWq6hUA30bYmkzCXbyp55AjUsp7QQe9JP5Zm6yutS0LFBgU/VzRqOCBdbz1sYFx9x/r3zlkmz2OarpDHrPwUUu1Y55fOww9Nu8nkBL3VgFGTybBo4PXzzsPlk5nNTV1gM6XTQKktQpntInPsXdaSQj8D4P3KDz/Kl0Z5R+BCHwnb4x3GTF1rYdC3DPiDpY58yFfH6/TxQV29qcF0uZ1xPjboWkR/NSs8yccBZIlDmGwGqk0VPcmDCE65345/7NRHvmJc7I0HWUeroAQ67QHv4hE6rBR3n85WaFxkSa7dwWBrCyHXM6c2J3sXUf2rjVFKfmzU0unNAq/JZyLc1QCD4S1qjA0bAXBPgNx3q0vtWtyV5QCKtpV5EZkXpDL9ancc9cT8kcT9O0FmTozkq1IOzWMr1gcmKkwqG+o8+Ayz5BX98TMb7NIbOnlt+ifUA2XI1aEyzzZZgqxewE3wY8JMBQzBlong+4pLqB6MfZTyHQ02oOmiNzdO55QQ9VcE7XtNkZei7A6fH4rO3qcjih7ohejtBf1wl9Hj6LL+Fas0ODbEL78Farx6aguaQmFNyreU592cwIiDtxVswG97hLggNchA9ZoHxnBx5mUuNpcMMT61L9lEtBZvADlg/8sItZ7asybcvaDDTkmu6qVW+OwhJdL0cPRsmVivaC3Bpy4BKLCsc6P1WUUTzsDDXJmr6hZ7c0ZkK+DZ4ZTYXis0kXrQjFWQUS0emMSy0JuqQw4leeXLNRCUFYwaB0JSyrpwFSuRn9gKZmjXWrZ8EYcv65r2EHG7N+Ygz1TwnZNfq8kCzXBSJFP/PmM+e1KDQMiWrjwVhaj5asi068+2c2loXsKSZmMq7SOrb9VwGvUlt85TZRwGz2M0xqEYAHImcjEz263ZoHMEuuqtTcSeZlWGFMuIiaHnBFtUPf6Vc7X4tyZK6e4P44jco+i2S2KdBaHDKC/CH8/Cq+SGP/aqCFUJdjGF2qLH/PVwKKiCHmogXpl+Rm7gVKFFkNBAK+2bOeJCGy77eDtMmhjlAaX7Gg1d4QdX+hQ4jopbDsU0sU59j+HaGm1I8eUuEfmGMR31Vf0tlQ2s9O6up+CfRATsGGgNwQFJlLcuPOZdlb5xbXJxK++zmHrKQSR1nSq7eQs/lq/qxAMDtX7f7GnV+QsmvNcrb6WBhGiQxBhIcNV9DdfEapgUkPVvzOfBki1j5CsXjlR8U=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Spam_Omnivox_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./Spam_Omnivox_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./Spam_Omnivox_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="820EB0E0">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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">
+</div>
+
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$IntraflexScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+		<style type="text/css">
+body {
+background-image:none;}
+.contenuIntraflex {
+height:auto;}
+html,body, form{
+margin:0;
+padding:0;
+height:100%;
+border:none;}
+.wrapper {
+padding:0px;
+margin:0px;
+width:970px;
+margin:0 auto;}
+</style><table height="100%" cellpadding="0" cellspacing="0" border="0" class="wrapper"><tbody><tr><td valign="top">
+<div id="zHeadW"><div id="zHead"><a href="https://cegepvicto.omnivox.ca/intr"><img id="logo" src="./Spam_Omnivox_files/logo.gif"></a><br><span id="user"></span></div><div id="rotation"><img style="position:absolute;right:0;z-index:200" src="./Spam_Omnivox_files/rot_15.jpg"><img style="position:absolute;right:0" src="./Spam_Omnivox_files/rot_overlay.jpg"></div></div><div class="lienRetourGlobal" style="display:none;"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="Entete_LiensMenu"><a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133157" class=""><img src="./Spam_Omnivox_files/intrRetourPetit.gif" border="0" title="Ma page d&#39;accueil"></a></td><td class="Entete_LiensMenu" style="padding-left: 5px;"><a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133157" class="">Ma page d'accueil</a></td></tr></tbody></table></div><style type="text/css">
+.lienRetourGlobal{position:relative;top:0px;left:22px;height:10px;}
+.lienRetourGlobal a{font-weight:bold;}
+</style><script type="text/javascript">
+var startingImg=15;
+</script>
+<br><table class="deloger" border="0" cellspacing="0" cellpadding="3"><tbody><tr><td nowrap="nowrap" style="font-size:13px;font-weight:bold; padding-left:15px;"><img src="./Spam_Omnivox_files/intrRetourPetit.gif" alt="" style="padding-right:3px; float:left;"><a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133157" class="">Retour à l'identification</a></td></tr></tbody></table><br><br><div style="width:620px;margin:0 auto;padding-bottom:140px;">
+		<table align="center" cellpadding="0" cellspacing="0" border="0" class="contenuIntraflex">
+			<tbody><tr>
+				<td valign="top" style="text-align: left;" class="contenu_BoxLogin">
+					<div id="loginWrapBox">
+						
+	<script type="text/javascript" src="./Spam_Omnivox_files/ComNatifOvx.js.téléchargement"></script>
+
+    
+
+        <link rel="stylesheet" type="text/css" href="./Spam_Omnivox_files/MobileFriendly.css">
+        <link rel="stylesheet" type="text/css" href="./Spam_Omnivox_files/premiereIdentOubli_MobileFriendly.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+
+
+<script type="text/javascript">
+
+	document.addEventListener("DOMContentLoaded", function () {
+		$(".txtCaptcha").val("");
+
+		 
+			txtCaptcha_keyup();
+			$(".txtCaptcha").keyup(txtCaptcha_keyup);
+		
+	});
+
+
+	function txtCaptcha_keyup() {
+		/*if ($(".txtCaptcha").val().length === 5) {
+			$(".trFormulaireInfo").show();
+		}
+		else {
+			$(".trFormulaireInfo").hide();
+		}*/
+
+	}
+
+	function Refresh()
+	{
+		$("#ctl00_cntFormulaire_wizard_ctl00_hidRefresh").val("1");
+		__doPostBack('ctl00$cntFormulaire$wizard$ctl00$btnSubmit','');
+
+	}
+
+    function btnCarte_click() {
+        $('#ctl00_cntFormulaire_wizard_ctl00_btnSubmit').click();
+    }
+</script>
+<style type="text/css">
+	.Gen_Table_AddSet td.Gen_Td_Colonne_Gauche {
+		padding-left:0;
+	}
+</style>
+
+<div class="Gen_Center_Div">
+	<table cellpadding="2" cellspacing="0" border="0" align="center">
+		<tbody><tr>
+			<td>
+                <div class="SectionHeaderModule UneLigne">
+                    <div class="TitrePage">
+					    Oubli du mot de passe
+                    </div>
+                    <div class="DescPage Web">
+                        Saisie d'informations personnelles
+                    </div>
+                </div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<br>Afin de vous identifier, veuillez d'abord entrer le code de sécurité dans la zone de texte et ensuite, entrer les informations personnelles afin qu'Omnivox puisse vous identifier. Toute tentative d'accès avec des données qui ne sont pas les vôtres constitue un usage frauduleux passible d'actions légales ainsi que de sanctions sévères.
+				<br>
+				<br>
+            
+				<div style="margin:auto;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin:auto; width: 100%;">
+				
+					<tbody><tr>
+						<td align="left">
+
+                            <div class="divCarteLogin">
+		                        <div class="Gen_TitrePageModule headerCarte">
+			                        <div class="sectionBulleCarte">
+				                        <div class="bulleCarte"><img src="./Spam_Omnivox_files/personne.png" alt=""></div>
+			                        </div>
+			                        <div class="Gen_TitrePageModule_Titre">
+                                        Oubli du mot de passe
+			                        </div>
+		                        </div>
+
+                                <div class="contenuCarte">
+		                            <div style="margin-bottom:0.5em;margin-top:0.5em;">
+								        <strong><label for="ctl00_cntFormulaire_wizard_ctl00_txtCaptcha">Entrez le code de sécurité ci-dessous</label></strong>
+							        </div>
+
+							        <div class="ElementFormulaireResponsive">
+								        <img id="ctl00_cntFormulaire_wizard_ctl00_imgCaptcha" src="./Spam_Omnivox_files/Captcha.ashx" alt="Image représentant un code de sécurité au format image. Si vous présentez des difficultés visuelles, veuillez communiquer avec le collège afin d&#39;obtenir de l&#39;assistance pour compléter votre première utilisation." style="border-width:0px;border:1px solid #CCCCCC;">
+                                        <br>
+								        <a href="javascript:Refresh();">Générer un autre code</a>
+							        </div>
+							        <div class="ElementFormulaireResponsive right">
+								        <input name="ctl00$cntFormulaire$wizard$ctl00$txtCaptcha" type="text" maxlength="5" id="ctl00_cntFormulaire_wizard_ctl00_txtCaptcha" class="txtCaptcha" autocomplete="off" style="width:200px;">
+							        </div>
+                                    <div class="SeparateurElementFormulaireResponsive"></div>
+
+                                    <div class="ElementFormulaireResponsive">
+								        <strong><label for="ctl00_cntFormulaire_wizard_ctl00_txtNoDA">
+                                            Numéro de Demande d'Admission (7&nbsp;chiffres)
+                                        </label></strong>
+							        </div>
+							        <div class="ElementFormulaireResponsive right">
+								        <input name="ctl00$cntFormulaire$wizard$ctl00$txtNoDA" type="text" maxlength="8" id="ctl00_cntFormulaire_wizard_ctl00_txtNoDA" autocomplete="off" style="width:200px;">
+							        </div>
+                                    <div class="SeparateurElementFormulaireResponsive"></div>
+
+                                    <div class="trFormulaireInfo">
+                                        <div class="ElementFormulaireResponsive">
+							                <strong><label for="ctl00_cntFormulaire_wizard_ctl00_txtCodePermanent">
+								                Code permanent
+                                            </label></strong>
+							            </div>
+							            <div class="ElementFormulaireResponsive right">
+								            <input name="ctl00$cntFormulaire$wizard$ctl00$txtCodePermanent" type="text" maxlength="12" id="ctl00_cntFormulaire_wizard_ctl00_txtCodePermanent" autocomplete="off" style="width:200px;">
+							            </div>
+                                    </div>
+                                    <div class="SeparateurElementFormulaireResponsive"></div>
+
+							        <div class="ElementFormulaireResponsive">
+								        <strong><label for="ctl00_cntFormulaire_wizard_ctl00_lstJours">
+								            Date de naissance
+                                        </label></strong>
+							        </div>
+							        <div class="ElementFormulaireResponsive right">
+								        <select name="ctl00$cntFormulaire$wizard$ctl00$lstJours" id="ctl00_cntFormulaire_wizard_ctl00_lstJours">
+	<option value=""></option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+
+</select>
+								        <select name="ctl00$cntFormulaire$wizard$ctl00$lstMois" id="ctl00_cntFormulaire_wizard_ctl00_lstMois">
+	<option value=""></option>
+	<option value="1">jan</option>
+	<option value="2">fév</option>
+	<option value="3">mar</option>
+	<option value="4">avr</option>
+	<option value="5">mai</option>
+	<option value="6">jun</option>
+	<option value="7">jul</option>
+	<option value="8">aoû</option>
+	<option value="9">sep</option>
+	<option value="10">oct</option>
+	<option value="11">nov</option>
+	<option value="12">déc</option>
+
+</select>
+								        <select name="ctl00$cntFormulaire$wizard$ctl00$lstAnnee" id="ctl00_cntFormulaire_wizard_ctl00_lstAnnee">
+	<option value=""></option>
+	<option value="2019">2019</option>
+	<option value="2018">2018</option>
+	<option value="2017">2017</option>
+	<option value="2016">2016</option>
+	<option value="2015">2015</option>
+	<option value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1993">1993</option>
+	<option value="1992">1992</option>
+	<option value="1991">1991</option>
+	<option value="1990">1990</option>
+	<option value="1989">1989</option>
+	<option value="1988">1988</option>
+	<option value="1987">1987</option>
+	<option value="1986">1986</option>
+	<option value="1985">1985</option>
+	<option value="1984">1984</option>
+	<option value="1983">1983</option>
+	<option value="1982">1982</option>
+	<option value="1981">1981</option>
+	<option value="1980">1980</option>
+	<option value="1979">1979</option>
+	<option value="1978">1978</option>
+	<option value="1977">1977</option>
+	<option value="1976">1976</option>
+	<option value="1975">1975</option>
+	<option value="1974">1974</option>
+	<option value="1973">1973</option>
+	<option value="1972">1972</option>
+	<option value="1971">1971</option>
+	<option value="1970">1970</option>
+	<option value="1969">1969</option>
+	<option value="1968">1968</option>
+	<option value="1967">1967</option>
+	<option value="1966">1966</option>
+	<option value="1965">1965</option>
+	<option value="1964">1964</option>
+	<option value="1963">1963</option>
+	<option value="1962">1962</option>
+	<option value="1961">1961</option>
+	<option value="1960">1960</option>
+	<option value="1959">1959</option>
+	<option value="1958">1958</option>
+	<option value="1957">1957</option>
+	<option value="1956">1956</option>
+	<option value="1955">1955</option>
+	<option value="1954">1954</option>
+	<option value="1953">1953</option>
+	<option value="1952">1952</option>
+	<option value="1951">1951</option>
+	<option value="1950">1950</option>
+	<option value="1949">1949</option>
+	<option value="1948">1948</option>
+	<option value="1947">1947</option>
+	<option value="1946">1946</option>
+	<option value="1945">1945</option>
+	<option value="1944">1944</option>
+	<option value="1943">1943</option>
+	<option value="1942">1942</option>
+	<option value="1941">1941</option>
+	<option value="1940">1940</option>
+	<option value="1939">1939</option>
+	<option value="1938">1938</option>
+	<option value="1937">1937</option>
+	<option value="1936">1936</option>
+	<option value="1935">1935</option>
+	<option value="1934">1934</option>
+	<option value="1933">1933</option>
+	<option value="1932">1932</option>
+	<option value="1931">1931</option>
+	<option value="1930">1930</option>
+	<option value="1929">1929</option>
+	<option value="1928">1928</option>
+	<option value="1927">1927</option>
+	<option value="1926">1926</option>
+	<option value="1925">1925</option>
+	<option value="1924">1924</option>
+	<option value="1923">1923</option>
+	<option value="1922">1922</option>
+	<option value="1921">1921</option>
+	<option value="1920">1920</option>
+
+</select>
+							        </div>
+                                    <div class="SeparateurElementFormulaireResponsive"></div>
+
+                                    <div class="Gen_Btn Gen_BtnContinuer" onclick="btnCarte_click();">Valider</div>
+                                    <div style="clear: both;"></div>
+                                </div>
+	                        </div>
+						</td>
+					</tr>
+
+              
+				</tbody></table>
+
+                <div class="sectionContactRegistrariat">
+				    En cas de problème, vous pouvez contacter le Secrétariat pédagogique.
+                    <div class="divCarteLogin" style="max-width: 525px; margin-top: 1em;">
+                        <div class="contenuCarte">
+				            <strong>
+                                Secrétariat pédagogique
+				            </strong>
+                            <br>
+                            819.758.6401&nbsp;x2479
+                            <br>
+                            Local C111
+                        </div>
+		            </div>
+                </div>
+
+				</div>
+				<input type="hidden" name="ctl00$cntFormulaire$wizard$ctl00$hidRefresh" id="ctl00_cntFormulaire_wizard_ctl00_hidRefresh" value="0">
+				<br>
+				<br>
+
+			</td>
+		</tr>
+		<tr class="trFooter1rePage">
+			<td>
+				<div class="footer" style="height: 54px; width: 100%;">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td class="tdFillEspace">
+								&nbsp;
+							</td>
+
+							<td>
+								<input type="submit" name="ctl00$cntFormulaire$wizard$ctl00$btnSubmit" value="Valider" id="ctl00_cntFormulaire_wizard_ctl00_btnSubmit" class="Gen_Btn Gen_BtnContinuer">
+							</td>
+						</tr>
+					</tbody></table>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+</div><input type="hidden" name="CurrentControl" value="saisieInfo_Etu"><input type="hidden" name="UniqueIDCurrentControl" value="ctl00$cntFormulaire$wizard$ctl00">
+
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+		</div></td></tr><tr><td class="footerPart"><!-- zone du footer -->
+<div id="zFootA">
+&nbsp;
+</div><div id="zFootB"><img src="./Spam_Omnivox_files/bg_foot_c.jpg"></div><div id="zFootDown"><span id="fone"><a href="javascript:OpenCentre(&#39;/intr/Module/Information/APropos.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">À propos d'Omnivox</a> | <a href="javascript:OpenCentre(&#39;/intr/Module/Information/Confidentialite.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">Sécurité et Paiement</a> | <a href="javascript:OpenCentre(&#39;/intr/Module/Information/Conditions.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">Conditions d'utilisation</a></span><span id="ftwo">Plateforme Omnivox développée par <a href="http://www.skytech.com/" title="Skytech Communications" target="_blank" class="LienSky">Skytech Communications</a></span></div><style type="text/css">
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{background:white url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_large.jpg') no-repeat top center;}
+#MasterWrapper{background-color:transparent;margin:0 auto;}
+#zHeadW{position:relative;overflow:hidden;height:238px;}
+#zHead{height:238px;position:absolute;z-index:200;left:0}
+#rotation{height:238px;width:869px;margin:0 auto;text-align:right;padding-top:59px;position:relative}
+#zWrpOne{background-color:white}
+#logo{border:0;position:relative;top:20px;left:28px;}
+#user{position:relative;top:50px;left:34px;font-family:'trebuchet ms',tahoma,arial;color:#e98715;font-weight:bold;display:block;width:400px;}
+#zServ .innerW{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_a.gif') no-repeat top right;width:225px;padding:0 15px 0 15px;position:relative;top:-16px}
+#spLeftSize{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_c.gif') repeat-y top right;width:180px;}
+.uOffreService{width:180px}
+#zServ .nom_part{display:block;background-color:red;text-indent:-9000px;overflow:hidden;height:58px;position:relative;left:-32px;top:12px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_b.gif') no-repeat top left;}
+div#h_actu{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_03.gif') no-repeat top right;}
+div#h_actu div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_02.gif') repeat-x top left;}
+div#h_actu div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_01.gif') no-repeat top left;}
+div#h_cal{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_03.gif') no-repeat top right;}
+div#h_cal div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_02.gif') repeat-x top left;}
+div#h_cal div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_cal_01.gif') no-repeat top left;}
+div#h_rss{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_03.gif') no-repeat top right;}
+div#h_rss div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_02.gif') repeat-x top left;}
+div#h_rss div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_01.gif') no-repeat top left;}
+div#h_comm{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_comm.gif') no-repeat top left;}
+div#h_sites{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_sites.gif') no-repeat top left;}
+div#h_qdn{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_qdn.gif') no-repeat top left;}
+div#h_rss{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rss.gif') no-repeat top left;}
+div#h_meteo{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_meteo.gif') no-repeat top left;}
+#divrepld{position:absolute;top:0;right:5px;}
+#divrepld a{font-weight:bold;}
+.big_spacer{height:20px;}
+#zWrapColDroiteB{padding-left:20px;}
+#cellFlexible{width:20px;}
+#zFootA{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_b.gif') repeat-x top left;height:39px;}
+#zFootB{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_d.jpg') repeat-x top left;}
+#zFootDown{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_e.gif') repeat-x top left;color:#fff;font-size:11px;font-family:'Trebuchet MS',arial;overflow:hidden;}
+#zFootDown a{color:#fff;font-size:11px;font-family:'Trebuchet MS',arial;}
+#zFootDown a:hover{color:#000}
+#zFootDown #fone{float:left;padding:2px 5px;}
+#zFootDown #ftwo{float:right;padding:2px 5px;}
+#zFootImg{text-align:center;padding:15px 0 40px 0}
+#rightColPartWrap{width:210px}
+ul,ol{margin:10px 0 0 40px}
+ /* calendrier */
+.CalendrierScolaire .calJourSemaine{background-color:#6e676c}
+.CalendrierScolaire .calDivPrincipal{border:1px dashed #f5f5f5}
+.CalendrierScolaire .calNomMois{font-size:16px;color:#777;font-family:'Trebuchet MS','Myriad Pro','Helvetica',arial;}
+.evenementCommunaute_titre img{display:none}
+.evenementCommunaute_titre{height:20px;}
+.CalendrierScolaire .calLienMoisPrecedentSuivant{text-indent:9000px;overflow:hidden;display:block;width:23px;height:19px;background:transparent none no-repeat top left;}
+.CalendrierScolaire .calTdMoisPrecedent .calLienMoisPrecedentSuivant{background-image:url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_cal_prec.jpg')}
+.CalendrierScolaire .calTdMoisSuivant .calLienMoisPrecedentSuivant{background-image:url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_cal_suiv.jpg')}
+.ovx10_tblCalDates{margin-left:0px}
+.CalendrierScolaire .calNomMois{padding:0;}
+.CalendrierScolaire .calTdMoisPrecedent,.CalendrierScolaire .calTdMoisSuivant{padding:3px 0 0 0;}
+.CalendrierScolaire .calJourOver{background-color:#dfefff;cursor:default;}
+.ovx10_nOver{background-color:#fcf8ed}
+</style></td></tr></tbody></table>
+
+		</form>
+	
+
+    <script type="text/javascript" src="./Spam_Omnivox_files/Skytech.Header.min.js.téléchargement"></script>
+
+
+</body></html>
