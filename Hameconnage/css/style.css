@@ -1,0 +1,7 @@
+.bg{
+    background-image: url("../img/unnamed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+}
