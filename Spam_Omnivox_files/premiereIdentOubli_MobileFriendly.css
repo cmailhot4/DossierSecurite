@@ -1,0 +1,50 @@
+﻿.contenuIntraflex {
+	max-width: 850px;
+	padding: 0 20px;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+}
+
+.divCarteLogin .contenuCarte {
+	padding: 1rem;
+}
+
+body {
+	font-family: Roboto,Arial,Helvetica,sans-serif;
+	font-size: 16px;
+}
+
+.SeparateurElementFormulaireResponsive {
+	height: 1rem;
+}
+
+.SectionHeaderModule {
+	background-image: url('/estd/adms2/Styles/Accueil.png');
+	background-position-y: 3px;
+}
+
+.SectionHeaderModule .TitrePage {
+	background-color: transparent;
+}
+
+input[type="text"],
+input[type="text"]:focus,
+input[type="password"],
+input[type="password"]:focus {
+	background-color: transparent;
+}
+
+.trFooter1rePage {
+	display: none;
+}
+
+table.Copyright {
+	width: 100%;
+	max-width: 400px;
+}
+
+@media only screen and (max-width: 544px) {
+	.divCarteLogin .contenuCarte {
+		padding: 0.5rem;
+	}
+}

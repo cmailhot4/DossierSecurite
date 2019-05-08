@@ -1,0 +1,47 @@
+/* Ce fichier contient les styles spécifiques à intraflex pour que header-v3 puisse rester 
+   un copier-coller du fichier _header.scss compilé. Ça facilite la maintenance/amélioration.
+*/
+
+@media only screen and (max-width : 600px) {
+    #MasterWrapper {
+        padding-top: 56px !important;
+    }
+}
+
+.wrapper-bandeau {
+    position: fixed;
+    z-index: 21;
+}
+
+/* Ancient containers des options (recherche/commentaire/quitter) qui sont maintenant dans le header */
+#divrepld,
+table.deloger,
+table.tableEntete {
+    display: none;
+}
+
+/* Container du menu de gauche */
+#spLeftSize {
+    padding-top: 14px !important; /*Équivaut au padding au-dessu des quoi de neuf*/
+}
+
+#headerSearchTextBox {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: box-shadow .3s, border .3s;
+}
+
+/*Media Query pour cacher le menu burger*/
+@media only screen and (max-width: 600px) {
+    #headerNavbarProfileText, #parent-photo {
+        display: none !important;
+    }
+}
+
+header {
+	margin-bottom: 30px;
+}
